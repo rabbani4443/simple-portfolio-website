@@ -220,7 +220,7 @@ hr{
 /* footer section style */
 footer{
 background-color: #FFF8F3;
-padding: 130px 230px;
+padding: 130px 230px 0px 230px;
 }
 .footer-container{
     display:flex;
@@ -262,4 +262,18 @@ padding: 130px 230px;
     border: 1px solid #757575;
     border-radius: 5px;
     width: 100%;
+}
+.copy-container{
+    text-align: center;
+    margin-top: 50px;
+}
+.footer-line{
+    border: 1px solid #474747 ;
+}
+.copy-content{
+    color: #474747;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    padding: 20px 0px;
 }
