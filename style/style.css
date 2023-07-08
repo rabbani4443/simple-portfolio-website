@@ -1,0 +1,47 @@
+/* Global css */
+*{
+    margin:0px;
+    Padding:0px;
+    font-family: 'Open Sans', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+/* Menu bar section */
+.menubar{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+}
+.menu-title {
+color: #181818;
+font-size: 45px;
+font-weight: 800;
+}
+.primary-color{
+    color: #FD6E0A;
+}
+.menubar ul {
+    display: flex;
+    align-items: center;
+}
+.menubar ul li{
+    list-style: none;
+    margin-right: 50px;
+}
+.menubar a{
+    color:#474747 ;
+    font-size: 20px;
+    font-weight: 400;
+    font-weight: 700;
+}
+.primary-button{
+    border-radius: 5px;
+    background: #FD6E0A;
+    padding: 10px 25px;
+    font-size: 20px;
+    font-weight: 700;
+    border: 0;
+    color: #fff;
+
+}
